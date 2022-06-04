@@ -8,6 +8,7 @@ function App() {
     <Switch>
       <Route exact path="/" component={ Login } />
       <Route path="/search" component={ Search } />
+      <Route path="album/:id" component={ Album } />
     </Switch>
   );
 }
