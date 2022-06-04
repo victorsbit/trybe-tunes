@@ -18,7 +18,6 @@ function Search() {
     }));
 
     const { inputValue } = state;
-
     const albumList = await searchAlbumsAPI(inputValue);
 
     setState((prevState) => ({
@@ -65,6 +64,7 @@ function Search() {
                       key={ album.collectionId }
                       name={ album.collectionName }
                       thumbnail={ album.artworkUrl100 }
+                      albumID={ album.collectionId }
                     />
                   ))}
                 </section>

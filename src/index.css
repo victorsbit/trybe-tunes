@@ -12,8 +12,14 @@ body {
 }
 
 #trybe-tunes-header {
-  color: green;
+  color: #4CAF50;
   text-align: center;
+}
+
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
 }
 
 .login-form {
@@ -23,7 +29,43 @@ body {
   font-size: 1.20em;
   justify-content: center;
   height: 300px;
+  outline: none;
   width: 300px;
+}
+
+.input {
+  appearance: none;
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+  outline: none;
+  width: 250px;
+}
+
+.input:focus::placeholder {
+  color: transparent;
+}
+
+.input::placeholder {
+  color: #222;
+  transition: color 0.3s ease;
+}
+
+.login-button {
+  background-color: gray;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  margin-top: 25px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 35px;
+  transition: 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #4CAF50;
 }
 
 .main-header {

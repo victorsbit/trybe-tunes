@@ -1,5 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
+import Album from './pages/Album';
 import Login from './pages/Login';
 import Search from './pages/Search';
 
@@ -8,7 +9,7 @@ function App() {
     <Switch>
       <Route exact path="/" component={ Login } />
       <Route path="/search" component={ Search } />
-      <Route path="album/:id" component={ Album } />
+      <Route path="/album/:id" component={ Album } />
     </Switch>
   );
 }
