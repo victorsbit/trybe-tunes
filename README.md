@@ -1,24 +1,15 @@
-# My Awesome Project
+# Trybe-Tunes
 
 # Contexto
-Este projeto trata-se de uma ferramenta de back-office para armazenar e buscar dados de erros que ocorreram com clientes.
+Este projeto foi desenvolvido com base em um projeto na <a href="https://github.com/betrybe">Trybe</a> e consiste em um clone do iTunes. É possível pesquisar albuns e escutar a demonstração de suas respectivas músicas.
 
 ## Técnologias usadas
 
 Front-end:
-> Desenvolvido usando: React, Redux, CSS3, HTML5, Redis, ES6
-
-Back-end:
-> Desenvolvido usando: NodeJS, ExpressJS, MongoDB, MYSQL, ES6
-
+> Desenvolvido usando: React, Context API, CSS3, HTML5, ES6
 
 ## Instalando Dependências
 
-> Backend
-```bash
-cd api/ 
-npm install
-``` 
 > Frontend
 ```bash
 cd src/
@@ -26,21 +17,10 @@ npm install
 ``` 
 ## Executando aplicação
 
-* Para rodar o back-end:
-
-  ```
-  cd api/ && npm start
-  ```
 * Para rodar o front-end:
 
   ```
     cd src/ && npm start
   ```
 
-## Executando Testes
-
-* Para rodar todos os testes:
-
-  ```
-    npm test
-  ```
+<a href="https://victorsbit-trybe-tunes.netlify.app/">Preview</a>
