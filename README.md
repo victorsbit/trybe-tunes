@@ -1,7 +1,7 @@
-# My Awesome Project
+# Trybe-Tunes
 
 # Contexto
-Este projeto foi desenvolvido com base em um projeto de mesmo nome durante meu aprendizado de Front-end na <a href="https://github.com/betrybe">Trybe</a>
+Este projeto foi desenvolvido com base em um projeto de mesmo nome durante meu aprendizado de Front-end na <a href="https://github.com/betrybe">Trybe</a> e consiste em um clone do iTunes. É possível pesquisar albuns e escutar a demonstração de suas respectivas músicas.
 
 ## Técnologias usadas
 
