@@ -1,4 +1,4 @@
-# Trybe-Tunes - <a href="https://victorsbit-trybe-tunes.netlify.app/">Preview</a>
+# TrybeTunes
 
 ## Contexto
 Este projeto foi desenvolvido com base em um projeto na <a href="https://github.com/betrybe">Trybe</a> e consiste em um clone do iTunes. É possível pesquisar por álbuns e escutar a demonstração de suas respectivas músicas.
@@ -18,7 +18,8 @@ npm install
 ## Executando aplicação
 
 * Para rodar o front-end:
+```
+cd src/ && npm start
+```
 
-  ```
-    cd src/ && npm start
-  ```
+###  - <a href="https://victorsbit-trybe-tunes.netlify.app/">Link para a aplicação</a>
